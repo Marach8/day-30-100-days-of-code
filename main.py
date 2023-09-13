@@ -9,7 +9,7 @@ for i in range (1, 31):
   ask = input(f'\033[32mWhat do you think about Day {i}: \033[0m')
   time.sleep(1)
   print()
-  a = f'You thought that Day {i} was {ask}.'
+  a = f'You thought that Day {i} was {ask}'
   print(f'\033[1;33m     {a: ^10} \033[0m')
   print('\033[31m---------------------------------------------\033[0m')
   time.sleep(3)
